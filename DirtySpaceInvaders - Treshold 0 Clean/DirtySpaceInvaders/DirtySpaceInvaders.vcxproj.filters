@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{0993d592-e859-47ec-8750-c79ca55c5190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System\Input">
+      <UniqueIdentifier>{ece6244b-db35-400f-954d-bf1fb3b8ecdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{f43c58c4-294c-4832-a12d-eced97327398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System\Input">
+      <UniqueIdentifier>{252a8bd1-ae6b-4722-9468-cabae2e10cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{8177aa59-71d0-4173-8b9d-4595a8adbb55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{bbd2e0b8-8683-4e3b-acb8-35caeff75347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math">
+      <UniqueIdentifier>{f8befdb7-69fc-4ff6-9c02-b152fed60c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Math\Random">
+      <UniqueIdentifier>{ca79743f-6f84-4bdc-884c-72f9766389e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Math">
+      <UniqueIdentifier>{635444bc-9877-48fc-8fd5-86b06e3201c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Math\Random">
+      <UniqueIdentifier>{8b1b90af-e507-4e20-ac38-8f6dab09fdf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Gameplay">
+      <UniqueIdentifier>{b9614471-e9d7-4432-9f03-56a7f5cdf7bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Gameplay">
+      <UniqueIdentifier>{05c70892-a7be-479f-8e31-4992e9ce0594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Gameplay\GameObject">
+      <UniqueIdentifier>{9cf22cd3-1ff4-474c-859d-db44fcfc8319}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Gameplay\GameObject">
+      <UniqueIdentifier>{9856b1f9-4997-4742-bb0e-842548550aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Gameplay\GameObject\Actors">
+      <UniqueIdentifier>{3a574650-1251-403a-9f72-e48be9af70cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Gameplay\GameObject\Actors">
+      <UniqueIdentifier>{961bfd83-244d-4b8e-a4f9-a2e1acd40469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Gameplay\Levels">
+      <UniqueIdentifier>{8d1f523e-de25-4d82-9467-05f88c9a5b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Gameplay\Levels">
+      <UniqueIdentifier>{4776a5d3-d574-4b49-b045-1bf319e89de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Gameplay\Levels\Level01">
+      <UniqueIdentifier>{acfeb91e-2edd-4371-a1b1-7746a3390907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Gameplay\Levels\Level01">
+      <UniqueIdentifier>{0b1f3b71-5ff8-4d36-bcb1-5d49bf129407}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Random\Random.h">
+      <Filter>Header Files\Engine\Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\Random\RandomNumber.h">
+      <Filter>Header Files\Engine\Math\Random</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Actors\Alien.h">
+      <Filter>Header Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Actors\AlienLaser.h">
+      <Filter>Header Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Actors\PlayerLaser.h">
+      <Filter>Header Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\GameObject\GameObject.h">
+      <Filter>Header Files\Engine\Gameplay\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\Input.h">
+      <Filter>Header Files\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Input\RndInput.h">
+      <Filter>Header Files\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Levels\Level.h">
+      <Filter>Header Files\Engine\Gameplay\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Levels\Level01\Level01.h">
+      <Filter>Header Files\Engine\Gameplay\Levels\Level01</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\Levels\PlayField.h">
+      <Filter>Header Files\Engine\Gameplay\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Gameplay\GameObject\Actors\PlayerShip.h">
+      <Filter>Header Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Random\Random.cpp">
+      <Filter>Source Files\Engine\Math\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\Random\RandomNumber.cpp">
+      <Filter>Source Files\Engine\Math\Random</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameObject\Actors\PlayerLaser.cpp">
+      <Filter>Source Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameObject\Actors\PlayerShip.cpp">
+      <Filter>Source Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameObject\Actors\AlienLaser.cpp">
+      <Filter>Source Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameObject\Actors\Alien.cpp">
+      <Filter>Source Files\Engine\Gameplay\GameObject\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\GameObject\GameObject.cpp">
+      <Filter>Source Files\Engine\Gameplay\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input\RndInput.cpp">
+      <Filter>Source Files\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Input\Input.cpp">
+      <Filter>Source Files\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\Levels\Level.cpp">
+      <Filter>Source Files\Engine\Gameplay\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\Levels\Level01\Level01.cpp">
+      <Filter>Source Files\Engine\Gameplay\Levels\Level01</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Gameplay\Levels\PlayField.cpp">
+      <Filter>Source Files\Engine\Gameplay\Levels</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

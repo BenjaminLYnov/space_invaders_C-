@@ -1,0 +1,10 @@
+﻿  IGameManager.cpp
+  PlayerShip.cpp
+C:\Users\Benjamin LY\Downloads\DirtySpaceInvaders\DirtySpaceInvaders\Engine\Gameplay\Actor\PlayerShip\PlayerShip.cpp(27,96): warning C4305: 'argument' : troncation de 'double' à 'T'
+          with
+          [
+              T=float
+          ]
+  Level01.cpp
+  Génération de code en cours...
+  DirtySpaceInvaders.vcxproj -> C:\Users\Benjamin LY\Downloads\DirtySpaceInvaders\x64\Debug\DirtySpaceInvaders.exe

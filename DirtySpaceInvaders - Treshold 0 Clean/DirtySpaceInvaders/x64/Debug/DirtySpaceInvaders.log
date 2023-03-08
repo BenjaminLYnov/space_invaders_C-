@@ -1,0 +1,5 @@
+﻿  Level01.cpp
+C:\Users\Benjamin LY\Downloads\DirtySpaceInvaders\DirtySpaceInvaders\Engine\Gameplay\Levels\Level01\Level01.cpp(19,54): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+  Main.cpp
+  Génération de code en cours...
+  DirtySpaceInvaders.vcxproj -> C:\Users\Benjamin LY\Downloads\DirtySpaceInvaders\x64\Debug\DirtySpaceInvaders.exe
